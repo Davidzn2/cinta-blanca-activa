@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap");
+/* @font-face{
+    src: url('fonts/Jost/Jost-VariableFont_wght.ttf');
+} */
+
+* {
+  font-family: "Jost", sans-serif;
+}
+body {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+}
+header{
+    border: dashed;
+}
+header a:focus{
+    color: yellow;
+}
+.class {
+}
+#MiEjemplo {
+  padding: 20px;
+  color: white;
+}
+#MiEjemplo img{
+    height: 200px;
+    width: auto;
+}
+/*#MiEjemplo img:hover{
+    height: 400px;
+    width: auto;
+}*/
+#MiEjemplo p {
+  font-size: 20px;
+}
+#MiOtroEjemplo {
+  color: beige;
+}
+header h1{
+    width: 50%;
+    margin:0;
+}
+header ul{
+    float: right;
+}
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
