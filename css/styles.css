@@ -9,6 +9,7 @@
 body {
   background-image: url("fondo.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 header{
     border: dashed;
@@ -16,15 +17,16 @@ header{
 header a:focus{
     color: yellow;
 }
-.class {
-}
+
 #MiEjemplo {
   padding: 20px;
   color: white;
 }
 #MiEjemplo img{
-    height: 200px;
-    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 /*#MiEjemplo img:hover{
     height: 400px;

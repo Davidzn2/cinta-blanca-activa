@@ -1,0 +1,34 @@
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+    color: green;
+    border: purple 2px solid;
+}
+.flex-child{
+    height: 200px;
+    width:200px;
+    border: red 2px solid;
+}
+.chico{
+    height: 200px;
+    width:200px;
+}
+.mediano{
+    height: 400px;
+    width:200px;
+}
+.grande{
+    height: 600px;
+    width:200px;
+}
+.flex-cont2{
+    display: flex;
+    justify-content: center;
+}
+.flex-cont2 img{
+    width: 200px;
+}
