@@ -16,6 +16,7 @@
 .chico{
     height: 200px;
     width:200px;
+    background: #EF2B2D;
 }
 .mediano{
     height: 400px;
@@ -31,4 +32,26 @@
 }
 .flex-cont2 img{
     width: 200px;
+}
+
+.cont-flex{
+    display: flex;
+}
+@media screen and (max-width:1200px){
+    .flex-child{
+        border:blue 2px solid;
+    }
+    .flex-cont2 img{
+        display:none;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .flex-child{
+        border:purple 2px solid;
+    }
+    .flex-cont2 img{
+        display:none;
+    }
+    
 }
