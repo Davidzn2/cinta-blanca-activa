@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var edad = prompt("Dime tu edad");
+    var genero = prompt("Eres hombre o mujer?")
+    if(edad >= 18 && genero == "hombre"){
+        alert("Eres mayor de edad y hombre")
+    } else if(edad >= 18 && genero == "mujer" || genero == "Mujer"){
+        alert("Eres mayor de edad y mujer")
+    }else if(edad < 18 && genero == "hombre"){
+        alert("Hombre y menor de edad")
+    }else if(edad < 18 && genero == "mujer"){
+        alert("Mujer y menor de edad")
+    } else if(genero !== "marciano"){
+        alert("no eres marciano!")
+    } else{
+        alert("No eres ni hombre ni mujer")
+    }
+    var usuario1 = prompt("Usuario1 elige, 1 es piedra 2 papel y 3 tijera");
+    var usuario2 = prompt("Usuario2 elige, 1 es piedra 2 papel y 3 tijera");
+    if(usuario1 == 1 && usuario2 == 3){
+        alert("Gana usuario 1")
+    }
+    var a = "Hola";
+    var b = 10;
+    if(a == b){
+        console.log("son iguales")
+    } else if (a > b){
+        console.log("a es mayor que b")
+    }else if(a< b){
+        console.log("b es mayor que a")
+    }else{
+        console.log("algo esta mal")
+    }
+    var prueba = prompt("dame un numero");
+    var pruebaConvertidaANumero = parseInt(prueba)
+    console.log(pruebaConvertidaANumero + prueba);
+
+</script>
+</html>
