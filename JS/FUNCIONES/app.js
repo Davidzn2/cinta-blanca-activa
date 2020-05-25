@@ -1,28 +1,28 @@
-// function funcionDePrueba(){
-//     console.log('Hola')
-// }
-// funcionDePrueba()
+function funcionDePrueba(){
+    console.log('Hola')
+}
+funcionDePrueba()
 
-// function saludarPersona(nombre='David'){
-//     console.log(`Hola ${nombre}`)
-// }
-// saludarPersona()
-// saludarPersona('Paco')
+function saludarPersona(nombre='David'){
+    console.log(`Hola ${nombre}`)
+}
+saludarPersona()
+saludarPersona('Paco')
 
-// function minian(genero, edad){
-//     if(genero=="h" && edad >= 13){
-//         console.log("Puede")
-//     }else{
-//         console.log('No puede')
-//     }
-// }
-// function degreesFar(degreesCelcius){
-//    var degreesFarenheit = (degreesCelcius * 9/5) + 32 
-//    console.log (degreesFarenheit)
-// }
-// var convertido = degreesFar(1)
-// console.log(convertido ) 
-// console.log(convertido * 5) 
+function minian(genero, edad){
+    if(genero=="h" && edad >= 13){
+        console.log("Puede")
+    }else{
+        console.log('No puede')
+    }
+}
+function degreesFar(degreesCelcius){
+   var degreesFarenheit = (degreesCelcius * 9/5) + 32 
+   console.log (degreesFarenheit)
+}
+var convertido = degreesFar(1)
+console.log(convertido ) 
+console.log(convertido * 5) 
 
 function suma(a, b){
     console.log('antes de la suma')
