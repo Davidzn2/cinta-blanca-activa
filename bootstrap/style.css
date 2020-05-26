@@ -1,0 +1,20 @@
+.perrito{
+    width: 600px;
+}
+.new-green{
+    background-color: #d3edda;
+    color: white;
+}
+.new-green:hover{
+    background-color: #a8e0b7;
+    color: white;
+}
+.logo{
+    width: 200px;
+}
+nav{
+    color: white;
+}
+.nav-blue{
+    background-color: blue;
+}
